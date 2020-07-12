@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<!--<head th:replace="fragments/head :: head('Adlister | All Ads')">-->
+<head th:replace="fragments/head :: head('Adlister | All Ads')">
     <meta charset="UTF-8">
     <title>All Ads</title>
 </head>
 <body>
-<!--<nav th:replace="fragments/navbar :: navbar"></nav>-->
+<nav th:replace="fragments/navbar :: navbar"></nav>
 <div class="container">
     <div th:if="${noAdsFound}">
         No Ads were found.
