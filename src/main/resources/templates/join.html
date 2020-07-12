@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Join</title>
+</head>
+<body>
+                <!--POST METHOD, NEEDS POSTMAPPING IN CONTROLLER to CONNECT-->
+    <h1 th:text="${cohort}"></h1>
+
+
+<!--GETMAPPING METHOD DISPLAYS FORM-->
+    <form action="/join" method="post">
+        <input type="text" name="cohort" id="cohort-ip" class="field" />
+        <button>Join NOW</button>
+    </form>
+</body>
+</html>
